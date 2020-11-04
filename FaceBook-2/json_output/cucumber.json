@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Facebook login Test Scenario",
+        "description": "",
+        "id": "facebook-login--action-feature;facebook-login-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12694721000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user should enter the url",
+            "match": {
+              "location": "loginStepDefinition2.user_should_enter_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2010378600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "title of the page is facebook",
+            "match": {
+              "location": "loginStepDefinition2.title_of_the_page_is_facebook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 587242300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should enter \"  jayeshkani25@gmail.com  \" and \"$XSM7#@25\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "  jayeshkani25@gmail.com  ",
+                  "offset": 19
+                },
+                {
+                  "val": "$XSM7#@25",
+                  "offset": 52
+                }
+              ],
+              "location": "loginStepDefinition2.user_should_enter_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2276200900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should click on login button",
+            "match": {
+              "location": "loginStepDefinition2.user_should_click_on_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook login  Action Feature",
+    "description": "",
+    "id": "facebook-login--action-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/user/eclipse-workspace/FaceBook-2/src/main/java/Features/login2.feature"
+  }
+]
